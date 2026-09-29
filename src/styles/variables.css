@@ -1,0 +1,21 @@
+:root {
+  --color-bg: #0f0f0d;
+  --color-bg-soft: #161614;
+  --color-paper: #f4f1ea;
+  --color-paper-muted: #e7e2d6;
+  --color-ink: #1a1914;
+  --color-ink-soft: #5c5a53;
+  --color-line: rgba(26, 25, 20, 0.18);
+  --color-accent: #c4a574;
+  --color-overlay: rgba(15, 15, 13, 0.55);
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-mono: "DM Mono", ui-monospace, monospace;
+  --header-h: 72px;
+  --ease-editorial: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@media (max-width: 768px) {
+  :root {
+    --header-h: 64px;
+  }
+}
